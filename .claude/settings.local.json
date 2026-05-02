@@ -1,8 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Read(//c/Users/User 103/Source/Repos/GameJamComp/**)",
-      "Bash(dir \"C:\\\\Users\\\\User 103\\\\Source\\\\Repos\\\\GameJamComp\")"
-    ]
-  }
-}
