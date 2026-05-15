@@ -228,7 +228,7 @@ namespace TutoringMarketplace.Forms.Pages
 
             priceCard.Controls.Add(new Panel { Location = new Point(14,178), Size = new Size(rw-28,1), BackColor = Theme.BorderColor });
             int sy = 188;
-            foreach (var (lbl, val) in new[] { ("Response time", tutor.ResponseTime), ("Completed jobs", tutor.CompletedJobs.ToString()), ("Success rate", "98%") })
+            foreach (var (lbl, val) in new[] { ("Response time", tutor.ResponseTime), ("Completed jobs", tutor.CompletedJobs.ToString())}) //, ("Success rate", "98%") 
             {
                 priceCard.Controls.Add(new Label { Text = lbl, Font = Theme.FontSmall, ForeColor = Theme.TextSecondary, AutoSize = true, Location = new Point(14,sy), BackColor = Color.Transparent });
                 priceCard.Controls.Add(new Label { Text = val, Font = Theme.FontBold, ForeColor = Theme.TextPrimary, AutoSize = true, Location = new Point(rw-14-TextRenderer.MeasureText(val,Theme.FontBold).Width,sy), BackColor = Color.Transparent });

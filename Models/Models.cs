@@ -29,6 +29,7 @@ namespace TutoringMarketplace.Models
         public string   Category     { get; set; } = "";
         public decimal  Price        { get; set; }
         public string   Duration     { get; set; } = "";
+        public string   Schedule    { get; set; } = "";
         public double   Rating       { get; set; } = 5.0;
         public int      ReviewCount  { get; set; } = 0;
         public int      TutorId      { get; set; }
